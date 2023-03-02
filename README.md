@@ -43,7 +43,7 @@ The implementation mode requires to define  the preprocessor macro
 #define NK_IMPLEMENTATION
 #include "metatronxnuklear.h"
 ```
-IMPORTANT: Every time you include "nuklear.h" you have to define the same optional flags.
+IMPORTANT: Every time you include "metatronxnuklear.h" you have to define the same optional flags.
 This is very important not doing it either leads to compiler errors or even worse stack corruptions.
 
 ## Example
